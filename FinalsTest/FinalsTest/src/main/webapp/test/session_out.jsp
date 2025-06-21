@@ -1,0 +1,9 @@
+<html>
+<head><title>Session_out</title></head>
+<body>
+	<%
+		session.invalidate();
+		response.sendRedirect("session.jsp");
+	%>
+</body>
+</html>
